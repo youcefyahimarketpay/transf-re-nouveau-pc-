@@ -1,0 +1,29 @@
+
+#presentationProfilPage
+  .test
+    color: red
+    cursor: pointer
+
+    width: 50%
+    margin: auto
+  &::v-deep p
+    margin-bottom: 10px
+    color: red
+  &::v-deep img
+    margin-top: 2rem
+    margin-bottom: 4rem
+    margin-left: 5rem
+    border: 2px solid red
+    &::v-deep ul
+      posotion: relative
+      display: flex
+      margin: auto
+      justify-content: center
+    .item:nth-child(1)
+      li
+        margin-top: 1rem
+        margin-bottom: 2rem
+        margin-left: 2rem
+        border: 2px solid red
+.text
+  text-align: left
